@@ -1,0 +1,163 @@
+input{
+    
+    border-radius: 20px;
+    margin-bottom: 20px;
+
+    border: 1px solid #2B2D42 ;
+    padding-left: 25px;
+}
+#LogF{
+    display: none;
+    
+}
+.scico{
+    width: 50px;
+    max-width: 20%;
+    max-height: 20%;
+    height: 50px;
+}
+.icoset{
+    width: 400px;
+    display: flex;
+    justify-content:space-evenly ;
+    margin-left: 20px;
+    margin-bottom: 20px;
+}
+#SignF{
+    display: block;
+}
+.Smain{
+    top: 0;
+    padding-top: 100px;
+    width: 100%;
+    display: flex;
+    height: 100vh;
+    overflow: hidden;
+    position: absolute;
+    z-index: -1;
+}
+.signfc{
+    width: 50%;
+    display: flex;
+    justify-content:center;
+    align-items: flex-end;
+    flex-direction: column;
+    text-align: center;
+    
+}
+.tgbtn{
+    text-align: center;
+    
+    margin-bottom: 30px;
+    
+}
+.SignB{
+    width: 200px;
+    height: 60px;
+    background-color: #17E741;
+    font-size: 30px;
+    color: white;
+    border-right: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+
+}
+.LogB{
+    width: 200px;
+    height: 60px;
+    background-color: #2B2D42;
+    font-size: 30px;
+    color: white;
+    border-left: none;
+    margin: 0;
+    padding: 0;
+    float: left;
+    border-radius: 0px 10px 10px 0px;
+
+   
+
+}
+.simg{
+    padding-left: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.Ityp1{
+    width: 400px;
+    height: 50px;
+    max-width: 90%;
+    margin-left: 20px;
+    display: block;
+}
+.Ityp2{
+    width: 190px;
+    height: 50px;
+    max-width:45%;
+    margin-left: 10px;
+}
+.fb1{
+   
+    width: 390px;
+    height: 60px;
+    background-color: #17E741;
+    font-size: 30px;
+    color: white;
+    border-right: none;
+    margin: 0;
+    padding: 0;
+    border: none;
+   
+    border-radius:25px;
+
+}
+@media screen and (max-width: 780px){
+    .icoset{
+        max-width:90% ;
+        width: 280px;
+        display: flex;
+        justify-content:space-evenly ;
+       
+        margin-bottom: 20px;
+    }
+
+        .Smain{
+            padding-top:0px;
+        }
+    .simg{
+        display: none;
+    }
+    .Ityp1{
+        max-width:90% ;
+        width: 280px;
+        margin-left: 0px;
+    }
+    .Ityp2{
+        display: block;
+        max-width:90% ;
+        width: 280px;
+        margin-left:0 ;
+    }
+    .signfc{
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .fb1{
+        max-width:90% ;
+        width: 280px;
+        height: 50px;
+        font-size: 20px;
+        transform: translate(-10px);
+    }
+    .SignB,.LogB{
+       max-width: 45%;
+       width: 140px;
+       height: 50px;
+       font-size: 30px;
+    }
+
+}

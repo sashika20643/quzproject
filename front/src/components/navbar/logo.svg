@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="130" height="50" viewBox="0 0 188 86">
+  <g id="logo" transform="translate(-66 2)">
+    <text id="P" transform="translate(66 68)" fill="#6469f1" font-size="65" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">P</tspan></text>
+    <text id="Queesy" transform="translate(116 68)" fill="#17e741" font-size="40" font-family="SegoeUI-Bold, Segoe UI" font-weight="700"><tspan x="0" y="0">Queesy</tspan></text>
+    <line id="Line_1" data-name="Line 1" x2="16" transform="translate(97.5 56.5)" fill="none" stroke="#6a6ee0" stroke-width="4"/>
+  </g>
+</svg>
